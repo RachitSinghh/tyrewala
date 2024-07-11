@@ -1,0 +1,54 @@
+{
+  "text-style": {
+    "value": {
+      "font": {
+        "family": "AvenirLTStd-Roman",
+        "size": 45,
+        "weight": 400,
+        "stretch": 1
+      },
+      "line_height": 45,
+      "letter_spacing": -0.45,
+      "color": "rgb(70, 174, 247)"
+    },
+    "metadata": {
+      "source": {
+        "project": {
+          "id": "5c455dd9d2cd65386e272232",
+          "name": "Resistive-Klikrz",
+          "platform": "android"
+        }
+      },
+      "resource": {
+        "id": "666cc243c5c5e176f07f083c",
+        "type": "TextStyle"
+      }
+    }
+  },
+  "text-style-2": {
+    "value": {
+      "font": {
+        "family": "AvenirLTStd",
+        "size": 57.5,
+        "weight": 500,
+        "stretch": 1
+      },
+      "line_height": 45,
+      "letter_spacing": -2.875,
+      "color": "rgb(0, 0, 0)"
+    },
+    "metadata": {
+      "source": {
+        "project": {
+          "id": "5c455dd9d2cd65386e272232",
+          "name": "Resistive-Klikrz",
+          "platform": "android"
+        }
+      },
+      "resource": {
+        "id": "666ee8ba80db23016ba5fb1c",
+        "type": "TextStyle"
+      }
+    }
+  }
+}

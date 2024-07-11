@@ -1,0 +1,21 @@
+export const UserProfileIcons ={
+    leftArrow: require('./arrow.png'),
+    logout:require('./logout_icon.png'),
+    profile: require('./profile_icon.png'),
+    uploadImg: require('./upload_img.png'),
+    emailIcon: require('./email_icon.png'),
+    phoneIcon: require('./phone.png'),
+    bprofile: require('./bprofile.png'),
+    pancardIcon: require('./pan_card.png'),
+    gstIcon: require('./gst_no.png'),
+    headerImg: require('./headerImg.png'),
+    dealerIcon: require('./layer_1146.png'),
+    discountIcon: require('./layer_1147.png'),
+    shopIcon: require('./shop_address.png'),
+    bgCircle:require('./bg_circle.png'),
+    headerimg2: require('./headerImg2.jpg'),
+    line: require('./line.png'),
+    cityIcon: require('./city.png'),
+    stateIcon: require('./state.png'), 
+    backBtn: require('./back.png')
+}

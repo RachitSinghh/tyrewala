@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/FontsFree-Net-AvenirLTStd-Book.ttf",
+      "sha1": "e9f7be691a445864b9541bc7f37320e5db8080a7"
+    },
+    {
+      "path": "assets/fonts/colors.json",
+      "sha1": "084b81d74cb0f1c101a27c0f052b2b0f19b0b8f3"
+    },
+    {
+      "path": "assets/fonts/spacing.json",
+      "sha1": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+    },
+    {
+      "path": "assets/fonts/text-styles.json",
+      "sha1": "f258718da2568f71db0a84435ebf8f76b21e5936"
+    }
+  ]
+}

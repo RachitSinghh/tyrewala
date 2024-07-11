@@ -1,0 +1,66 @@
+{
+  "white": {
+    "value": "rgb(255, 255, 255)",
+    "metadata": {
+      "source": {
+        "project": {
+          "id": "5c455dd9d2cd65386e272232",
+          "name": "Resistive-Klikrz",
+          "platform": "android"
+        }
+      },
+      "resource": {
+        "id": "5c5ea393bf01587e03eb398c",
+        "type": "Color"
+      }
+    }
+  },
+  "azure": {
+    "value": "rgb(0, 173, 238)",
+    "metadata": {
+      "source": {
+        "project": {
+          "id": "5c455dd9d2cd65386e272232",
+          "name": "Resistive-Klikrz",
+          "platform": "android"
+        }
+      },
+      "resource": {
+        "id": "5c5ea6e26eccb7755991c988",
+        "type": "Color"
+      }
+    }
+  },
+  "silver": {
+    "value": "rgb(230, 231, 232)",
+    "metadata": {
+      "source": {
+        "project": {
+          "id": "5c455dd9d2cd65386e272232",
+          "name": "Resistive-Klikrz",
+          "platform": "android"
+        }
+      },
+      "resource": {
+        "id": "5c5ef47038e74e7e44c08ab5",
+        "type": "Color"
+      }
+    }
+  },
+  "cloudy-blue": {
+    "value": "rgb(169, 175, 201)",
+    "metadata": {
+      "source": {
+        "project": {
+          "id": "5c455dd9d2cd65386e272232",
+          "name": "Resistive-Klikrz",
+          "platform": "android"
+        }
+      },
+      "resource": {
+        "id": "5c5ef497c6fba37e322343c9",
+        "type": "Color"
+      }
+    }
+  }
+}

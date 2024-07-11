@@ -1,0 +1,25 @@
+export const HomeAssets = {
+    notify: require('./notify.png'),
+    profile: require('./profile.png'),
+    navi: require('./navi.png'),
+    logoTw: require('./logo_tw.png'),
+    leftArrow: require('./leftArrow.png'),
+    ceat: require('./ceat.png'),
+    tvseg: require('./tvseg.png'),
+    mrf: require('./mrf.png'),
+    placeholder: require('./placeholder.png'),
+    rightArrow: require('./rightArrow.png'),
+    tyreReg: require('./tyre_reg.png'),
+    claimSettle: require('./cs.png'),
+    outStanding: require('./os.png'),
+    rewards: require('./rw.png'),
+    metroTyres: require('./metro_tyres.png'),
+    maxxis: require('./maxxis.png'),
+    bedRock: require('./bedrock.png'),
+    dolphine: require('./dolphin.png'),
+    kohinoor: require('./kohinoor.png'),
+    kelly: require('./kelly.png'),
+    jktyre: require('./jk.png'),
+    apollo: require('./apollo.png')
+
+}

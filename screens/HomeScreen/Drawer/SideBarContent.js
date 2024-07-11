@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const TWHomeScreen2 = () => {
+const SideBarContent = () => {
   return (
     <View>
-      <Text>TWHomeScreen2</Text>
+      <Text>SideBarContent</Text>
     </View>
   )
 }
 
-export default TWHomeScreen2
+export default SideBarContent
 
 const styles = StyleSheet.create({})

@@ -89,17 +89,39 @@ android {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
         }
+        release {
+            storeFile file('tyrewala.keystore')
+            storePassword 'tyrewala'
+            keyAlias 'tyrewala'
+            keyPassword 'tyrewala'
+        }
     }
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
+
+            applicationVariants.all { variant ->
+                variant.outputs.all { output ->
+                    def name  = "tyerwala.apk"
+                    output.outputFileName = name
+                }
+            }
+
         }
         release {
             // Caution! In production, you need to generate your own keystore file.
             // see https://reactnative.dev/docs/signed-apk-android.
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+
+            applicationVariants.all { variant ->
+                variant.outputs.all { output ->
+                    def name  = "tyerwala.apk"
+                    output.outputFileName = name
+                }
+            }
+
         }
     }
 }

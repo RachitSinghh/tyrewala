@@ -1,21 +1,17 @@
-import {Image, View,StyleSheet} from 'react-native';
+import {Image, View, StyleSheet} from 'react-native';
 import React from 'react';
 
 import TWsplash from '../assets/images/TWsplash.png';
-import Power from '../assets/images/Power/drawable-xhdpi/power.png'
+import Power from '../assets/images/Power/drawable-xhdpi/power.png';
 // import SvgComponent from '../assets/images/Svg/Power';
 
 const IntroScreen = () => {
   return (
     <View style={styles.container}>
-        <Image source={TWsplash} style={styles.logo}/>
-      
-      
+      <Image source={TWsplash} style={styles.logo} />
       <View style={styles.footerContainer}>
-        <Image source={Power} style={styles.footer} resizeMode='contain'/>
+        <Image source={Power} style={styles.footer} resizeMode="contain" />
       </View>
-      
-   
     </View>
   );
 };
@@ -27,12 +23,12 @@ const styles = StyleSheet.create({
     height: '100%',
     width: '100%',
     justifyContent: 'center',
-    alignItems: 'center' , 
+    alignItems: 'center',
     padding: 10,
-    backgroundColor: '#e6e7e2'
+    backgroundColor: '#e6e7e2',
   },
-  footerContainer:{
-    width: "80%",
+  footerContainer: {
+    width: '80%',
     height: 50,
     justifyContent: 'center',
     alignItems: 'center',
@@ -40,10 +36,7 @@ const styles = StyleSheet.create({
     bottom: 0,
     marginLeft: 50,
   },
-  footer:{
-    width: '100%'
-    
-  }
-  
-
-})
+  footer: {
+    width: '100%',
+  },
+});

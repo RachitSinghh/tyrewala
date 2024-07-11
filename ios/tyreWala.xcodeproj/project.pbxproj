@@ -14,6 +14,10 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-tyreWala-tyreWalaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-tyreWala-tyreWalaTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		4CC39AC59CEE49CA984AAEA2 /* FontsFree-Net-AvenirLTStd-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3F11896D08B4BCCBCAFE476 /* FontsFree-Net-AvenirLTStd-Book.ttf */; };
+		AE335E2B79CE40C18338C47B /* colors.json in Resources */ = {isa = PBXBuildFile; fileRef = FCFEF5C848524CCEA4B10B0A /* colors.json */; };
+		2F36C7768BD944F19530BE63 /* spacing.json in Resources */ = {isa = PBXBuildFile; fileRef = B804835E20E645C4ABF08F6D /* spacing.json */; };
+		0B05384CBFCD4262ABB679D9 /* text-styles.json in Resources */ = {isa = PBXBuildFile; fileRef = 06CC6241CC114BE9AA7A6EE1 /* text-styles.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = tyreWala/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = tyreWala/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = tyreWala/main.m; sourceTree = "<group>"; };
-	    13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = tyreWala/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = tyreWala/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-tyreWala-tyreWalaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tyreWala-tyreWalaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-tyreWala.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tyreWala.debug.xcconfig"; path = "Target Support Files/Pods-tyreWala/Pods-tyreWala.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-tyreWala.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tyreWala.release.xcconfig"; path = "Target Support Files/Pods-tyreWala/Pods-tyreWala.release.xcconfig"; sourceTree = "<group>"; };
@@ -45,6 +49,10 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = tyreWala/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-tyreWala-tyreWalaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tyreWala-tyreWalaTests.release.xcconfig"; path = "Target Support Files/Pods-tyreWala-tyreWalaTests/Pods-tyreWala-tyreWalaTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		C3F11896D08B4BCCBCAFE476 /* FontsFree-Net-AvenirLTStd-Book.ttf */ = {isa = PBXFileReference; name = "FontsFree-Net-AvenirLTStd-Book.ttf"; path = "../assets/fonts/FontsFree-Net-AvenirLTStd-Book.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FCFEF5C848524CCEA4B10B0A /* colors.json */ = {isa = PBXFileReference; name = "colors.json"; path = "../assets/fonts/colors.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B804835E20E645C4ABF08F6D /* spacing.json */ = {isa = PBXFileReference; name = "spacing.json"; path = "../assets/fonts/spacing.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		06CC6241CC114BE9AA7A6EE1 /* text-styles.json */ = {isa = PBXFileReference; name = "text-styles.json"; path = "../assets/fonts/text-styles.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +132,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				358C3B4F53D44238802F7146 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -149,6 +158,18 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		358C3B4F53D44238802F7146 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				C3F11896D08B4BCCBCAFE476 /* FontsFree-Net-AvenirLTStd-Book.ttf */,
+				FCFEF5C848524CCEA4B10B0A /* colors.json */,
+				B804835E20E645C4ABF08F6D /* spacing.json */,
+				06CC6241CC114BE9AA7A6EE1 /* text-styles.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -245,6 +266,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				4CC39AC59CEE49CA984AAEA2 /* FontsFree-Net-AvenirLTStd-Book.ttf in Resources */,
+				AE335E2B79CE40C18338C47B /* colors.json in Resources */,
+				2F36C7768BD944F19530BE63 /* spacing.json in Resources */,
+				0B05384CBFCD4262ABB679D9 /* text-styles.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
